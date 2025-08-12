@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.13031f03.css",
-    "main.js": "/portfolio/static/js/main.b30e06c0.js",
+    "main.css": "/portfolio/static/css/main.9833bad9.css",
+    "main.js": "/portfolio/static/js/main.9f778b22.js",
     "static/js/453.df3c06a6.chunk.js": "/portfolio/static/js/453.df3c06a6.chunk.js",
     "static/media/bc46.png": "/portfolio/static/media/bc46.b3173fbcfd2d790ea77e.png",
     "static/media/bc44.png": "/portfolio/static/media/bc44.af5f4a4c15750b7e8a54.png",
@@ -12,7 +12,9 @@
     "static/media/bc29.png": "/portfolio/static/media/bc29.cd61483c3a471d49d64a.png",
     "static/media/bc36.png": "/portfolio/static/media/bc36.8617c10b56b02f49316c.png",
     "static/media/bc47.png": "/portfolio/static/media/bc47.41262acf6493247c7220.png",
+    "static/media/bc3.png": "/portfolio/static/media/bc3.503bff844ff1ce1d745f.png",
     "static/media/bc49.png": "/portfolio/static/media/bc49.f0d4444e32459f35645c.png",
+    "static/media/bc4.png": "/portfolio/static/media/bc4.2068b0881c17a5f46360.png",
     "static/media/bc33.png": "/portfolio/static/media/bc33.1aacd101ae1ce8513c85.png",
     "static/media/bc35.png": "/portfolio/static/media/bc35.0f3f5a1024442328f27a.png",
     "static/media/bc45.png": "/portfolio/static/media/bc45.8d926322ce6d793232b4.png",
@@ -52,6 +54,7 @@
     "static/media/bc19.png": "/portfolio/static/media/bc19.aa5a19ebcf4f3ceca9d8.png",
     "static/media/bc9.png": "/portfolio/static/media/bc9.f27c68c8901817c1bb76.png",
     "static/media/autograph.svg": "/portfolio/static/media/autograph.df54686509ce6ab86f9007d30e26e3e1.svg",
+    "static/media/pallete.svg": "/portfolio/static/media/pallete.5d9ab5efc042defaaddd8074ff2e2d12.svg",
     "static/media/dglogo.svg": "/portfolio/static/media/dglogo.3da4e47d80f1c8a791b63f43ebb53c9c.svg",
     "static/media/illustrator.svg": "/portfolio/static/media/illustrator.d6ad3d53f0f6636f4ab73147cdc1e631.svg",
     "static/media/redux.svg": "/portfolio/static/media/redux.60f1641e76b532772526a7b885be2fd9.svg",
@@ -61,12 +64,12 @@
     "static/media/javascript.svg": "/portfolio/static/media/javascript.d2b270c4fea128c4857948f80f03d437.svg",
     "static/media/figma.svg": "/portfolio/static/media/figma.3bdc9a5958c18bdea7f1c5312db0873e.svg",
     "index.html": "/portfolio/index.html",
-    "main.13031f03.css.map": "/portfolio/static/css/main.13031f03.css.map",
-    "main.b30e06c0.js.map": "/portfolio/static/js/main.b30e06c0.js.map",
+    "main.9833bad9.css.map": "/portfolio/static/css/main.9833bad9.css.map",
+    "main.9f778b22.js.map": "/portfolio/static/js/main.9f778b22.js.map",
     "453.df3c06a6.chunk.js.map": "/portfolio/static/js/453.df3c06a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13031f03.css",
-    "static/js/main.b30e06c0.js"
+    "static/css/main.9833bad9.css",
+    "static/js/main.9f778b22.js"
   ]
 }
