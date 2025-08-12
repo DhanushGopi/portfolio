@@ -1,9 +1,9 @@
 import './App.css';
-import {createBrowserRouter, RouterProvider} from 'react-router-dom';
+import {createHashRouter, RouterProvider} from 'react-router-dom';
 import { pathsandelements } from './config/routes';
 function App() {
   
-  const navs = createBrowserRouter(pathsandelements);
+  const navs = createHashRouter(pathsandelements);
   return (
     <div className="App">
       <RouterProvider router={navs}/>

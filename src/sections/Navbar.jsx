@@ -26,7 +26,7 @@ export default function Navbar(props) {
             <Navbarbtns funcact1={gotoHome} funcact2={gotoDanzuverse} 
                         btntext1="Home" btntext2="Danzuverse" 
                         btnstyle1={props.navbarbtn1} btnstyle2={props.navbarbtn2}/>
-            <NavCtaBtn funcact={handleExternalLink} btntext="👋 Hi, I'm Dhanush!"/>
+            <NavCtaBtn funcact={handleExternalLink} btntext="Hi, I'm Dhanush!"/>
         </div>
     )
 }

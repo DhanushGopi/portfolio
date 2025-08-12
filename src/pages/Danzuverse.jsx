@@ -5,7 +5,7 @@ import FooterSec from '../sections/FooterSec';
 export default function Danzuverse(){
     return(
         <div className="home-cont">
-            <Navbar navbarbtn1="navbar-btnactive"  navbarbtn2="navbar-btn"/>
+            <Navbar navbarbtn1="navbar-btn"  navbarbtn2="navbar-btnactive"/>
             <BlogSec/>
             <FooterSec/>
             </div>

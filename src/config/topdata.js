@@ -1,4 +1,5 @@
-
+import bc3 from '../assets/thumbnails/bc3.png';
+import bc4 from '../assets/thumbnails/bc4.png';
 import bc5 from '../assets/thumbnails/bc5.png';
 import bc6 from '../assets/thumbnails/bc6.png';
 import bc7 from '../assets/thumbnails/bc7.png';
@@ -57,11 +58,32 @@ import Javascript from '../components/Chips/Javascript';
 import Mongodb from '../components/Chips/Mongodb';
 import Redux from '../components/Chips/Redux';
 import Rjs from '../components/Chips/Rjs';
+import PalleteLogo from '../components/Chips/PalleteLogo';
 
 
 
 
 const blogData = [
+    {
+    id: 3,
+    title: "Spider Man Painted",
+    date: "Aug 2025",
+    image: bc3,
+    link: "https://www.instagram.com/p/DNLOPXZTvSC/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    category: "illustration",
+    stack:[<PalleteLogo/>],
+    chip: <Designchip/>,
+    },
+    {
+    id: 4,
+    title: "Iron Moai",
+    date: "Jul 2025",
+    image: bc4,
+    link: "https://www.instagram.com/p/DMvlDDETyuE/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==",
+    category: "illustration",
+    stack:[<PalleteLogo/>,<FigmaLogo/>],
+    chip: <Designchip/>,
+    },
     {
     id: 5,
     title: "Greenbite UI",

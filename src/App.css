@@ -3,9 +3,10 @@
   --brandvoilet: #4F20D2;
   --brandblue: #006de1;
   --brandyeellow:#FFD900;
-  --white1:#fff;
+  --white1:#fffdfd;
   --black1:#000;
   --black2:#1e1e1e;
+  --black3:#2a2a2a;
   --grey1:#a3a3a3;
   --grey2:#eeeeee;
   --grey3:#707070;
@@ -50,8 +51,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   padding: 0.5rem  0.5rem  0.5rem 3rem;
-  background-color: var(--black1);
+  background-color: var(--black2);
   margin: 1rem 0rem;
   row-gap: 2rem;
   column-gap: 2rem;
@@ -68,6 +70,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   background-color: transparent;
 }
 
@@ -234,15 +237,15 @@ background: linear-gradient(12deg, rgba(79, 32, 210, 1) 0%, rgba(0, 109, 225, 1)
   align-items: center;
   flex-direction: column;
   row-gap: 0.5rem;
-  margin: 1rem 0rem;
+  margin: 1.5rem 0rem 4rem 0rem;
 }
 
 .herosec-header{
-  color: var(--black1);
+  color: var(--black2);
   font-family: var(--ibmplexsans);
   font-weight: 500;
   font-size: 4.5rem;
-  letter-spacing: -5px;
+  letter-spacing: -0.1cap;
   line-height: 4.5rem;
 }
 
@@ -266,8 +269,9 @@ background: linear-gradient(12deg, rgba(79, 32, 210, 1) 0%, rgba(0, 109, 225, 1)
 
 .hightext {
   font: var(--ibmplexsans);
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
+  font-style: italic;
   color: var(--brandblue);
   background: linear-gradient(to right,
       var(--brandblue) 20%,
@@ -284,8 +288,9 @@ background: linear-gradient(12deg, rgba(79, 32, 210, 1) 0%, rgba(0, 109, 225, 1)
 
 .hightext1 {
   font: var(--ibmplexsans);
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
+  font-style: italic;
   color: var(--brandblue);
 }
 
@@ -295,10 +300,11 @@ background: linear-gradient(12deg, rgba(79, 32, 210, 1) 0%, rgba(0, 109, 225, 1)
 }
 
 .herosec-subheader{
-  color: var(--black1);
+  color: var(--black3);
   font-size: 1.3rem;
-  font-weight: 500;
-  margin: 2rem 0rem;
+  font-weight: 450;
+  margin: 1rem 0rem;
+  letter-spacing: 0.1cap;
 }
 
 .blogsec-cont{
@@ -319,7 +325,9 @@ background: linear-gradient(12deg, rgba(79, 32, 210, 1) 0%, rgba(0, 109, 225, 1)
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   column-gap: 0.5rem;
+  row-gap: 0.5rem;
   border: 1px solid var(--grey2);
 }
 
@@ -344,7 +352,7 @@ background: linear-gradient(12deg, rgba(79, 32, 210, 1) 0%, rgba(0, 109, 225, 1)
 }
 
 .filter-btn.active {
-  background-color: var(--black1);
+  background-color: var(--black2);
   color: var(--white1);
 }
 
@@ -470,15 +478,17 @@ transition: 0.5s;
 }
 
 .footer-cont{
-  width: 90dvw;
-  background-color: var(--black1);
+  width: 80dvw;
+  background-color: var(--black2);
   border-radius: 0.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   column-gap: 0.5rem;
-  padding: 2rem 0rem;
-  margin: 1rem 0rem;
+  row-gap: 1rem;
+  padding: 2rem 1rem;
+  margin: 1rem;
 }
 
 .footer-text{
@@ -519,7 +529,7 @@ transition: 0.5s;
 }
 
 
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
   .navbar{
     display: none;
   }
@@ -535,4 +545,218 @@ transition: 0.5s;
   .redirectcard{
     display: flex;
   }
+} */
+
+@media (min-width: 320px) and (max-width:519px) {
+ 
+  .navbar{
+  width: 70dvw;
+  padding: 2rem;
+  justify-content: center;
+  }
+
+  .herosec{
+  width: 80dvw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 0.3rem;
+  margin: 1.5rem 0rem;
+  }
+
+  .herosec-header{
+  font-weight: 500;
+  font-size: 2.5rem;
+  text-align:center;
+  letter-spacing: -0.1cap;
+  line-height: 2.5rem;
 }
+
+.herosec-subheader{
+  padding: 0.5rem 0rem 0rem 0rem;
+  color: var(--black3);
+  font-size: 1rem;
+  font-weight: 450;
+  margin: 0.5rem 0rem;
+  letter-spacing: 0.1cap;
+  text-align: center;
+  order: 3;
+}
+
+.herosec-header1{
+  order: 1;
+}
+
+.herosec-header2{
+  order: 2;
+}
+
+  .filtersec-cont{
+    width: 70dvw;
+    padding: 2rem;
+  }
+
+}
+
+@media (min-width: 520px) and (max-width:719px) {
+ 
+  .navbar{
+    width: 70dvw;
+    padding: 2rem;
+    justify-content: center;
+  }
+
+  .herosec{
+  width: 80dvw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 0.3rem;
+  margin: 1.5rem 0rem;
+}
+
+  .herosec-header{
+  font-weight: 500;
+  font-size: 4rem;
+  text-align: center;
+  letter-spacing: -0.1cap;
+  line-height: 4rem;
+}
+
+.herosec-subheader{
+  padding: 0.5rem 0rem 0rem 0rem;
+  color: var(--black3);
+  font-size: 1.5rem;
+  font-weight: 450;
+  margin: 0.5rem 0rem;
+  letter-spacing: 0.1cap;
+  text-align: center;
+  order: 3;
+}
+
+.herosec-header1{
+  order: 1;
+}
+
+.herosec-header2{
+  order: 2;
+}
+
+  .filtersec-cont{
+    width: 70dvw;
+    padding: 2rem;
+  }
+
+}
+
+
+@media (min-width: 720px) and (max-width:920px) {
+ 
+  .navbar{
+    width: 70dvw;
+    padding: 2rem;
+    justify-content: center;
+  }
+
+  .herosec{
+  width: 80dvw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 0.3rem;
+  margin: 1.5rem 0rem;
+}
+
+  .herosec-header{
+  font-weight: 500;
+  font-size: 4rem;
+  text-align: center;
+  letter-spacing: -0.1cap;
+  line-height: 4rem;
+}
+
+.herosec-subheader{
+  padding: 0.5rem 0rem 0rem 0rem;
+  color: var(--black3);
+  font-size: 1.5rem;
+  font-weight: 450;
+  margin: 0.5rem 0rem;
+  letter-spacing: 0.1cap;
+  text-align: center;
+  order: 3;
+}
+
+.herosec-header1{
+  order: 1;
+}
+
+.herosec-header2{
+  order: 2;
+}
+
+  .filtersec-cont{
+    width: 70dvw;
+    padding: 2rem;
+  }
+
+}
+
+
+/* @media (min-width: 930px) {
+ 
+  .navbar{
+    width: 70dvw;
+    padding: 2rem;
+    justify-content: center;
+  }
+
+  .herosec{
+  width: 80dvw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 0.3rem;
+  margin: 1.5rem 0rem;
+}
+
+  .herosec-header{
+  font-weight: 500;
+  font-size: 4rem;
+  text-align: center;
+  letter-spacing: -0.1cap;
+  line-height: 4rem;
+}
+
+.herosec-subheader{
+  padding: 0.5rem 0rem 0rem 0rem;
+  color: var(--black3);
+  font-size: 1rem;
+  font-weight: 450;
+  margin: 0.5rem 0rem;
+  letter-spacing: 0.1cap;
+  text-align: center;
+  order: 3;
+}
+
+.herosec-header1{
+  order: 1;
+}
+
+.herosec-header2{
+  order: 2;
+}
+
+  .filtersec-cont{
+    width: 70dvw;
+    padding: 2rem;
+  }
+
+} */
