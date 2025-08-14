@@ -1,3 +1,4 @@
+import bc2 from '../assets/thumbnails/bc2.png';
 import bc3 from '../assets/thumbnails/bc3.png';
 import bc4 from '../assets/thumbnails/bc4.png';
 import bc5 from '../assets/thumbnails/bc5.png';
@@ -64,6 +65,16 @@ import PalleteLogo from '../components/Chips/PalleteLogo';
 
 
 const blogData = [
+     {
+    id: 2,
+    title: "CCPO System UX",
+    date: "Aug 2025",
+    image: bc2,
+    link: "https://www.behance.net/gallery/232126955/Campus-Cafeteria-Pre-Order-System-UX-Case-Study",
+    category: "ux",
+    stack:[<FigmaLogo/>],
+    chip: <Designchip/>,
+    },
      {
     id: 3,
     title: "Spider Man Painted",
