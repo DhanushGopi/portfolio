@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9833bad9.css",
-    "main.js": "/portfolio/static/js/main.ec9781e0.js",
+    "main.js": "/portfolio/static/js/main.6b9eec5b.js",
     "static/js/453.df3c06a6.chunk.js": "/portfolio/static/js/453.df3c06a6.chunk.js",
     "static/media/bc46.png": "/portfolio/static/media/bc46.b3173fbcfd2d790ea77e.png",
     "static/media/bc44.png": "/portfolio/static/media/bc44.af5f4a4c15750b7e8a54.png",
@@ -31,6 +31,7 @@
     "static/media/bc13.png": "/portfolio/static/media/bc13.ad35b792d87d86394c39.png",
     "static/media/bc15.png": "/portfolio/static/media/bc15.bea8464ec38bcf075c00.png",
     "static/media/bc25.png": "/portfolio/static/media/bc25.6c2205a20af8af4d3e67.png",
+    "static/media/bc1.png": "/portfolio/static/media/bc1.e4a68225d5eae15dc021.png",
     "static/media/bc7.png": "/portfolio/static/media/bc7.52da799eccf852aa87ff.png",
     "static/media/bc28.png": "/portfolio/static/media/bc28.300d48bb5c8ec91a3adf.png",
     "static/media/bc12.png": "/portfolio/static/media/bc12.4cbe9c7a9b90afbca78f.png",
@@ -66,11 +67,11 @@
     "static/media/figma.svg": "/portfolio/static/media/figma.3bdc9a5958c18bdea7f1c5312db0873e.svg",
     "index.html": "/portfolio/index.html",
     "main.9833bad9.css.map": "/portfolio/static/css/main.9833bad9.css.map",
-    "main.ec9781e0.js.map": "/portfolio/static/js/main.ec9781e0.js.map",
+    "main.6b9eec5b.js.map": "/portfolio/static/js/main.6b9eec5b.js.map",
     "453.df3c06a6.chunk.js.map": "/portfolio/static/js/453.df3c06a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9833bad9.css",
-    "static/js/main.ec9781e0.js"
+    "static/js/main.6b9eec5b.js"
   ]
 }
