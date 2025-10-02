@@ -1,3 +1,4 @@
+import bc1 from '../assets/thumbnails/bc1.png';
 import bc2 from '../assets/thumbnails/bc2.png';
 import bc3 from '../assets/thumbnails/bc3.png';
 import bc4 from '../assets/thumbnails/bc4.png';
@@ -65,6 +66,16 @@ import PalleteLogo from '../components/Chips/PalleteLogo';
 
 
 const blogData = [
+    {
+    id: 1,
+    title: "Rethinking ATVM UX",
+    date: "Sep 2025",
+    image: bc1,
+    link: "https://www.behance.net/gallery/235444223/Rethinking-the-UX-of-Indian-Railways-ATVM",
+    category: "ux",
+    stack:[<FigmaLogo/>],
+    chip: <Designchip/>,
+    },
     {
     id: 2,
     title: "CCPO System UX",
@@ -167,10 +178,10 @@ const blogData = [
     },
     {
     id: 12,
-    title: "Bounce Back UI",
+    title: "Bounce Back UX",
     date: "Dec 2024",
     image: bc12,
-    link: "https://www.figma.com/design/kmeuU7ObRcwfsoy3a6a1Oc/Bounce-Back?node-id=1101-5550&t=tYpJPs61Mc2KsCCS-1",
+    link: "https://www.behance.net/gallery/235639629/BounceBack-SaaS-App-for-Physiotherapist",
     category: "ux",
     stack:[<FigmaLogo/>],
     chip: <Designchip/>,
