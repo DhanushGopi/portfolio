@@ -16,7 +16,7 @@ export default function Navbar(props) {
     }
 
     const handleExternalLink = () => {
-        window.open("https://www.linkedin.com/in/dhanushgopi/", "_blank", "noopener,noreferrer");
+        window.open("https://drive.google.com/drive/folders/19DiBZWSsP6H7-gpuaiwaE2qGN_a9CDgl?usp=sharing", "_blank", "noopener,noreferrer");
     };
 
 
@@ -26,7 +26,7 @@ export default function Navbar(props) {
             <Navbarbtns funcact1={gotoHome} funcact2={gotoDanzuverse} 
                         btntext1="Home" btntext2="Danzuverse" 
                         btnstyle1={props.navbarbtn1} btnstyle2={props.navbarbtn2}/>
-            <NavCtaBtn funcact={handleExternalLink} btntext="Hi, I'm Dhanush!"/>
+            <NavCtaBtn funcact={handleExternalLink} btntext="View Resume"/>
         </div>
     )
 }
