@@ -18,14 +18,15 @@
    --voiletbg:#E5DEF8;
   --voilettext:#3F1AA8;
   --ibmplexsans:"IBM Plex Sans", sans-serif;
-  --grey5: "Yes it my project i owns this DANZU";
+  --boldonse: "Boldonse", sans-serif;
+  --grey5: "Yes it my project i owns this ig:@thedhanushgopi";
 }
 
 
 *{
   padding: 0;
   margin: 0;
-  font-family: var(--ibmplexsans);
+  /* font-family: var(--ibmplexsans); */
   background-color: transparent;
 }
 
@@ -76,6 +77,7 @@
 
 .navbar-btn{
   width: 100px;
+  font-family: var(--ibmplexsans);
   font-size: 1rem;
   font-weight: 500;
   color: var(--grey1);
@@ -95,6 +97,7 @@
 }
 
 .navbar-btnactive{
+  font-family: var(--ibmplexsans);
   font-size: 1rem;
   font-weight: 500;
     font-style: italic;
@@ -123,6 +126,7 @@
 
 
 .navcta-btn{
+  font-family: var(--ibmplexsans);
   background: transparent;
   font-size: 1rem;
   font-weight: 500;
@@ -146,6 +150,8 @@
 
 
 .primary-btn{
+    font-family: var(--ibmplexsans);
+
   background: var(--brandblue);
 /* background: linear-gradient(12deg, rgba(79, 32, 210, 1) 0%, rgba(0, 109, 225, 1) 65%, rgba(176, 210, 246, 1) 100%); */
   font-size: 1rem;
@@ -173,6 +179,7 @@
 }
 
 .super-btn{
+    font-family: var(--ibmplexsans);
   background: var(--brandblue);
 background: linear-gradient(12deg, rgba(79, 32, 210, 1) 0%, rgba(0, 109, 225, 1) 65%, rgba(176, 210, 246, 1) 100%);
   font-size: 1rem;
@@ -206,6 +213,8 @@ transition: all 0.3s ease;;
 
 
 .sec-btn{
+    font-family: var(--ibmplexsans);
+
   background: transparent;
 /* background: linear-gradient(12deg, rgba(79, 32, 210, 1) 0%, rgba(0, 109, 225, 1) 65%, rgba(176, 210, 246, 1) 100%); */
   font-size: 1rem;
@@ -247,11 +256,11 @@ transition: all 0.3s ease;;
 
 .herosec-header{
   color: var(--black2);
-  font-family: var(--ibmplexsans);
+  font-family: var(--boldonse);
   font-weight: 500;
-  font-size: 4.5rem;
+  font-size: 3rem;
   letter-spacing: -0.1cap;
-  line-height: 4.5rem;
+  line-height: 3.5rem;
 }
 
 
@@ -273,10 +282,10 @@ transition: all 0.3s ease;;
 
 
 .hightext {
-  font: var(--ibmplexsans);
+  font-family: var(--boldonse);
   font-weight: 500;
   text-align: center;
-  font-style: italic;
+  /* font-style: italic; */
   color: var(--brandblue);
   background: linear-gradient(to right,
       var(--brandblue) 20%,
@@ -292,10 +301,9 @@ transition: all 0.3s ease;;
 }
 
 .hightext1 {
-  font: var(--ibmplexsans);
+  font-family: var(--boldonse);
   font-weight: 500;
   text-align: center;
-  font-style: italic;
   color: var(--brandblue);
 }
 
@@ -306,6 +314,7 @@ transition: all 0.3s ease;;
 
 .herosec-subheader{
   color: var(--black3);
+  font-family: var(--ibmplexsans);
   font-size: 1.3rem;
   font-weight: 450;
   margin: 1rem 0rem;
@@ -321,7 +330,7 @@ transition: all 0.3s ease;;
   align-items: center;
   flex-direction: column;
   row-gap: 2rem;
-    margin: 1rem 0rem;
+  margin: 1rem 0rem;
 
 }
 
@@ -342,6 +351,7 @@ transition: all 0.3s ease;;
 
 .filter-btn{
   background-color: var(--white1);
+  font-family: var(--ibmplexsans);
   font-size: 1rem;
   font-weight: 500;
   color: var(--grey1);
@@ -401,6 +411,7 @@ transition: 0.5s;
 }
 
 .blogcard-metainfo{
+    font-family: var(--ibmplexsans);
   width: 250px;
   display: flex;
   justify-content: space-between;
@@ -408,6 +419,7 @@ transition: 0.5s;
 }
 
 .blogcard-date{
+  font-family: var(--ibmplexsans);
   font-size: 1rem;
   color: var(--grey1);
   font-weight: 500;
@@ -416,6 +428,7 @@ transition: 0.5s;
 }
 
 .chip-cont{
+  font-family: var(--ibmplexsans);
   font-size: 1rem;
   padding: 0.3rem 1rem;
   border-radius: 1rem;
@@ -453,6 +466,7 @@ transition: 0.5s;
 
 .blogcard-title{
   width: 250px;
+  font-family: var(--ibmplexsans);
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--black2);
@@ -468,6 +482,7 @@ transition: 0.5s;
 .blog-btn{
   width: 250px;
   background: transparent;
+  font-family: var(--ibmplexsans);
   font-size: 1rem;
   font-weight: 500;
   color: var(--brandblue);
@@ -499,6 +514,7 @@ transition: 0.5s;
 }
 
 .footer-text{
+  font-family: var(--ibmplexsans);
   color: var(--white1);
   font-weight: 500;
   font-size: 1rem;
@@ -525,12 +541,14 @@ transition: 0.5s;
 }
 
 .redirect-title{
+  font-family: var(--ibmplexsans);
   font-size: 1.5rem;
   color: var(--black2);
   font-weight: 700;
 }
 
 .redirect-msg{
+  font-family: var(--ibmplexsans);
   font-size: 1rem;
   color: var(--black2);
 }
@@ -575,7 +593,7 @@ transition: 0.5s;
 
   .herosec-header{
   font-weight: 500;
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align:center;
   letter-spacing: -0.1cap;
   line-height: 2.5rem;
@@ -631,7 +649,7 @@ transition: 0.5s;
 
   .herosec-header{
   font-weight: 500;
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
   letter-spacing: -0.1cap;
   line-height: 4rem;
@@ -689,7 +707,7 @@ transition: 0.5s;
 
   .herosec-header{
   font-weight: 500;
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
   letter-spacing: -0.1cap;
   line-height: 4rem;
