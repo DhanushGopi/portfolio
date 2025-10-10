@@ -50,6 +50,8 @@ import bc49 from '../assets/thumbnails/bc49.png';
 import bc50 from '../assets/thumbnails/bc50.png';
 import bc51 from '../assets/thumbnails/bc51.png';
 import bc52 from '../assets/thumbnails/bc52.png';
+import bc53 from '../assets/thumbnails/bc53.gif';
+
 import Designchip from '../components/Chips/Designchip';
 import Devchip from '../components/Chips/Devchip';
 
@@ -66,6 +68,16 @@ import PalleteLogo from '../components/Chips/PalleteLogo';
 
 
 const blogData = [
+    {
+    id: 53,
+    title: "Starry Night Pixel",
+    date: "Oct 2025",
+    image: bc53,
+    link: "https://www.instagram.com/p/DPk7tQmk9UW/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==",
+    category: "ux",
+    stack:[<Illustrator/>],
+    chip: <Designchip/>,
+    },
     {
     id: 1,
     title: "Rethinking ATVM UX",
