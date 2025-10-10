@@ -595,7 +595,7 @@ transition: 0.5s;
   font-weight: 500;
   font-size: 2rem;
   text-align:center;
-  letter-spacing: -0.1cap;
+  letter-spacing: 0cap;
   line-height: 2.5rem;
 }
 
@@ -651,7 +651,7 @@ transition: 0.5s;
   font-weight: 500;
   font-size: 3rem;
   text-align: center;
-  letter-spacing: -0.1cap;
+  letter-spacing: 0cap;
   line-height: 4rem;
 }
 
@@ -709,7 +709,7 @@ transition: 0.5s;
   font-weight: 500;
   font-size: 3rem;
   text-align: center;
-  letter-spacing: -0.1cap;
+  letter-spacing: 0cap;
   line-height: 4rem;
 }
 
