@@ -51,6 +51,8 @@ import bc50 from '../assets/thumbnails/bc50.png';
 import bc51 from '../assets/thumbnails/bc51.png';
 import bc52 from '../assets/thumbnails/bc52.png';
 import bc53 from '../assets/thumbnails/bc53.gif';
+import bc54 from '../assets/thumbnails/bc54.png';
+
 
 import Designchip from '../components/Chips/Designchip';
 import Devchip from '../components/Chips/Devchip';
@@ -69,12 +71,22 @@ import PalleteLogo from '../components/Chips/PalleteLogo';
 
 const blogData = [
     {
+    id: 54,
+    title: "EV Station Finder",
+    date: "Oct 2025",
+    image: bc54,
+    link: "https://www.behance.net/gallery/236995335/EV-Bike-Charging-Station-Finder-and-Charging-Screen",
+    category: "ux",
+    stack:[<FigmaLogo/>],
+    chip: <Designchip/>,
+    },
+    {
     id: 53,
     title: "Starry Night Pixel",
     date: "Oct 2025",
     image: bc53,
     link: "https://www.instagram.com/p/DPk7tQmk9UW/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==",
-    category: "ux",
+    category: "illustration",
     stack:[<Illustrator/>],
     chip: <Designchip/>,
     },
