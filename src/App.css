@@ -259,7 +259,7 @@ transition: all 0.3s ease;;
   font-family: var(--boldonse);
   font-weight: 500;
   font-size: 3rem;
-  letter-spacing: -0.1cap;
+  letter-spacing: 0cap;
   line-height: 3.5rem;
 }
 

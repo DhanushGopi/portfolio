@@ -52,6 +52,9 @@ import bc43 from '../assets/thumbnails/bc43.png';
 // import bc52 from '../assets/thumbnails/bc52.png';
 import bc53 from '../assets/thumbnails/bc53.gif';
 import bc54 from '../assets/thumbnails/bc54.png';
+import bc55 from '../assets/thumbnails/bc55.png';
+import bc56 from '../assets/thumbnails/bc56.png';
+import bc57 from '../assets/thumbnails/bc57.png';
 
 import Designchip from '../components/Chips/Designchip';
 import Devchip from '../components/Chips/Devchip';
@@ -69,6 +72,36 @@ import PalleteLogo from '../components/Chips/PalleteLogo';
 
 
 const blogData = [
+    {
+    id: 57,
+    title: "Bloome Web Page",
+    date: "Nov 2025",
+    image: bc57,
+    link: "https://dhanushgopi.github.io/bloomelandingpage/",
+    category: "dev",
+    stack:[<FigmaLogo/>,<Rjs/>],
+    chip: <Devchip/>,
+    },
+    {
+    id: 56,
+    title: "Bloome Cosmetic UI",
+    date: "Nov 2025",
+    image: bc56,
+    link: "https://www.figma.com/design/wNn99A4mMPJoN3MEyQrQaw/Dezinersknot?node-id=0-1&t=nqM4J0nDXo0txCIA-1",
+    category: "ux",
+    stack:[<FigmaLogo/>],
+    chip: <Designchip/>,
+    },
+    {
+    id: 55,
+    title: "I'm Notcute",
+    date: "Nov 2025",
+    image: bc55,
+    link: "https://www.instagram.com/p/DRNQMBTkyli/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==",
+    category: "illustration",
+    stack:[<Illustrator/>],
+    chip: <Designchip/>,
+    },
     {
     id: 54,
     title: "EV Station Finder",
